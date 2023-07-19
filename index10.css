@@ -1,0 +1,55 @@
+header {
+    background-color: rgb(230, 154, 204);
+  }
+  
+.header{
+    text-decoration: none;
+    color: var(--unnamed, #fdfdfd);
+    /* Текст / 21px, Medium */
+    font-family: Montserrat;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 143%; /* 30.03px */
+}
+
+.one{
+    margin: 5em;
+    width: 647px;
+    color: var(--unnamed, #ffffff);
+    /* Заголовки / 48px, Bold */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 125% */
+    letter-spacing: -1px;
+}
+
+body {
+    background-image: url(h.png);
+    background-size: cover; /* Забезпечує зміну розміру зображення таким чином, щоб воно вкривало весь фон body */
+    background-repeat: no-repeat; /* Забороняє повторення зображення */
+  }
+
+
+  
+  .container {
+    text-align: center;
+  }
+  
+  .transparent-button {
+    background-color: rgba(255, 255, 255, 0.5); /* Колір фону кнопки (напівпрозорий білий) */
+    color: #fff; /* Колір тексту кнопки (білий) */
+    border: none;
+    padding: 20px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Плавне переходу кольору фону */
+  }
+  
+  .transparent-button:hover {
+    background-color: #00cc66; /* Колір фону кнопки при наведенні (зелений) */
+  }
+  
+  
